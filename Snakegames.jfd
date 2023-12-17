@@ -1,0 +1,262 @@
+JFDML JFormDesigner: "8.2.0.0.331" Java: "21" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+			name: "this"
+			"title": "Snake Game"
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnS"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\s.png" )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "btnSKeyPressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "btnSKeyReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "btnSKeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 40
+				"x": 80
+				"y": 505
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnA"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\a.png" )
+				"focusable": false
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "btnAKeyPressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "btnAKeyReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "btnAKeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 40
+				"x": 30
+				"y": 470
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnD"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\d.png" )
+				"focusable": false
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "btnDKeyPressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "btnDKeyReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "btnDKeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 40
+				"x": 130
+				"y": 470
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "btnW"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\w.png" )
+				"focusable": false
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyPressed", "btnWKeyPressed", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyReleased", "btnWKeyReleased", true ) )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "btnWKeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 80
+				"y": 435
+				"height": 40
+				"width": 50
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle14"
+				"icon": &SwingIcon0 new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\1.png" )
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 860
+				"y": 440
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle13"
+				"icon": &SwingIcon1 new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\2.png" )
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 900
+				"y": 65
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle12"
+				"icon": #SwingIcon0
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 840
+				"y": 185
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle11"
+				"icon": &SwingIcon2 new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\3.png" )
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 760
+				"y": 330
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle10"
+				"icon": #SwingIcon0
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 605
+				"y": 215
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle9"
+				"icon": #SwingIcon1
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 135
+				"y": 330
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle8"
+				"icon": #SwingIcon0
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 375
+				"y": 260
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle7"
+				"icon": #SwingIcon1
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 210
+				"y": 170
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle6"
+				"icon": #SwingIcon0
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 555
+				"y": 420
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle5"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\3.png" )
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 285
+				"y": 430
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle"
+				"icon": #SwingIcon2
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 365
+				"y": 80
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle3"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\2.png" )
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 60
+				"height": 60
+				"x": 570
+				"y": 85
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblObstacle2"
+				"icon": #SwingIcon0
+				"focusable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 100
+				"y": 50
+				"width": 60
+				"height": 60
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "lblBackground"
+				"icon": new com.jformdesigner.model.SwingIcon( 1, "C:\\Users\\lachi\\OneDrive\\Desktop\\oop bren\\Jform\\snake game\\pictures\\background.png" )
+				"text": "ST"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 0
+				"y": 0
+				"width": 1005
+				"height": 570
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				"opaque": true
+				"background": new java.awt.Color( 0, 102, 51, 255 )
+				"foreground": sfield java.awt.Color white
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menuHowtoplay"
+					"text": "How to play?"
+					"background": new java.awt.Color( 0, 102, 51, 255 )
+					"opaque": true
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Black", 1, 14 )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem1"
+						"text": "Use W, A, S, D to control the snake."
+						"margin": new java.awt.Insets( 3, 0, 3, 6 )
+						"iconTextGap": -10
+						"foreground": sfield java.awt.Color white
+						"opaque": true
+						"background": &Color0 new java.awt.Color( 0, 102, 51, 255 )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem2"
+						"text": "Avoid collisions with the snake's body and tree's as  obstacles."
+						"margin": new java.awt.Insets( 3, 0, 3, 6 )
+						"iconTextGap": -10
+						"foreground": sfield java.awt.Color white
+						"opaque": true
+						"background": #Color0
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem3"
+						"text": "Collect apples to grow longer."
+						"margin": new java.awt.Insets( 3, 0, 3, 6 )
+						"iconTextGap": -10
+						"foreground": sfield java.awt.Color white
+						"opaque": true
+						"background": #Color0
+					} )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnStart"
+					"text": "START"
+					"opaque": true
+					"foreground": &Color1 new java.awt.Color( 255, 255, 255, 255 )
+					"background": &Color2 new java.awt.Color( 0, 102, 51, 255 )
+					"font": &Font0 new java.awt.Font( "Segoe UI", 1, 14 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "btnExit"
+					"text": "EXIT"
+					"opaque": true
+					"foreground": #Color1
+					"background": #Color2
+					"font": #Font0
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1005, 610 )
+		} )
+	}
+}
